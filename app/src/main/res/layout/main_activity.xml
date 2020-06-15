@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fm_bg"
+    android:orientation="vertical"
+    android:padding="20dp">
+    <RelativeLayout
+        android:id="@+id/out_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="安安"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"/>
+        <RadioGroup
+            android:id="@+id/rg_1"
+            android:layout_below="@id/tv_1"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="20dp">
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/rbt_0"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:gravity="center"
+                android:button="@null"
+                />
+
+            <RadioButton
+                android:id="@+id/rbt_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/rbt_bg"
+                android:button="@null"
+                android:text="1人"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="10dp"/>
+
+            <RadioButton
+                android:id="@+id/rbt_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/rbt_bg"
+                android:text="2人"
+                android:button="@null"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="10dp"/>
+            <RadioButton
+                android:id="@+id/rbt_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/rbt_bg"
+                android:text="3人"
+                android:button="@null"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="10dp"/>
+            <RadioButton
+                android:id="@+id/rbt_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@drawable/rbt_bg"
+                android:text="4人"
+                android:button="@null"
+                android:textSize="30sp"
+                android:textColor="#000000"
+                android:layout_marginBottom="10dp"/>
+        </RadioGroup>
+        <Button
+            android:id="@+id/bt_1"
+            android:layout_below="@id/rg_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fight fight fight"
+            android:textColor="#FFDC35"
+            android:background="@drawable/side_nav_bar"/>
+        <TextView
+            android:id="@+id/output_reviewer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@id/bt_1"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"/>
+    </RelativeLayout>
+    
+        
+        
+        
+        
+</androidx.appcompat.widget.LinearLayoutCompat>

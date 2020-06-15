@@ -1,0 +1,2 @@
+rootProject.name='Throne of The World EX assistant'
+include ':app'
