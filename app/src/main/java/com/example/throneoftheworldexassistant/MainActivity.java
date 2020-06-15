@@ -2,6 +2,8 @@ package com.example.throneoftheworldexassistant;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ClipData;
+import android.content.ClipboardManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -44,6 +46,17 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+        output_reviewer.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View v) {
+                ClipData cd = ClipData.newPlainText("text",output_reviewer.getText());
+                ClipboardManager cbm = (ClipboardManager)getSystemService(CLIPBOARD_SERVICE);
+                cbm.setPrimaryClip(cd);
+                Toast.makeText(MainActivity.this,"已將結果複製到Clipboard",Toast.LENGTH_SHORT).show();
+                return false;
+            }
+        });
+
 
     }
 
