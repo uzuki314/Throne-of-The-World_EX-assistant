@@ -13,4 +13,153 @@
     <string name="menu_slideshow">Slideshow</string>
 
     <string name="home_second">Home Second</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="召喚師">
+        <p>
+            <br>靈能：法師 → 召喚師\n</br>
+            <br>。法師(召喚師)\n</br>
+            <br>　• 可看成「等級」\n</br>
+            <br>　• 無法攻擊\n</br>
+            <br>　• 不能抵擋\n</br>
+            <br>　• 無法選中(含刺殺)\n</br>
+            <br>　• 不用吃飯\n</br>
+            <br>術士：內建1張法師(召喚師)\n</br>
+            <br>靈魂：召喚獸的軍耗減半(包含飢餓)\n</br>
+            <br>。牌\n</br>
+            <br>　• 分1/2/3/4星牌庫(牌數：8/6/4/2)\n</br>
+            <br>　• 起始無手牌\n</br>
+            <br>　• 只能抽 小於等於自身法師等級 的牌庫\n</br>
+            <br>　• 每回合選一個牌庫並從其中抽1張牌\n</br>
+            <br>　　(法師等級 4 則抽2張)\n</br>
+            <br>。能量\n</br>
+            <br>　• 能量上限依等級為 2/4/6/8\n</br>
+            <br>　• 每回合開始能量補至上限\n</br>
+            <br>。召喚\n</br>
+            <br>　• 可召喚 小於等於自身法師等級 星數的召喚獸\n</br>
+            <br>　• 按照cost消耗能量召喚召喚獸\n</br>
+            <br>　　(+星數 為犧牲場上該星數召喚獸)\n</br>
+            <br>　• 不限次數\n</br>
+            <br>。攻擊\n</br>
+            <br>　• 打法師行動卡使一隻召喚獸攻擊\n</br>
+            <br>。防禦\n</br>
+            <br>　• 消耗2點能量抵擋1點傷害\n</br>
+            <br>　• 召喚獸抵擋時回到手牌\n</br>
+            <br>　• 召喚獸被刺殺時回到牌庫底</br>
+        </p>
+    </string>
+    <string name="人馬">
+        <p>
+            <br>精準：攻擊可自行分配打哪隻\n</br>
+            <br>　　1.先指定要打的部隊，血量不得超過攻擊\n</br>
+            <br>　　2.被攻擊方按剩餘攻擊力分配\n</br>
+            <br>敏捷：骰到三以下，敵人攻擊減半\n</br>
+	    </p>
+    </string>
+    <string name="巨人">
+        <p>
+            <br>威武：戰士攻擊×2\n</br>
+            <br>緩慢：戰士行動得花2行動點1行動卡 或 3行動點\n</br>
+	    </p>
+    </string>
+    <string name="神族">
+        <p>
+            <br>神威：王族要牌可指定種類(部隊/行動/技能)\n</br>
+            <br>神體：負面技能效果降低\n</br>
+            <br>　　• 飢餓：只需繳一半的軍耗\n</br>
+            <br>　　• 收買：需支付4元\n</br>
+            <br>　　• 刺殺：骰到二以上才能刺殺\n</br>
+            <br>　　• 偷竊：偷竊來的牌要蓋一回合才能用\n</br>
+	    </p>
+    </string>
+    <string name="魔族">
+        <p>
+            <br>好戰：生產單位 → 攻擊單位，無視無敵\n</br>
+            <br>殘酷：任何手牌能當刺殺打出(一回合上限2次)\n</br>
+	    </p>
+    </string>
+    <string name="可愛族">
+        <p>
+            <br>裝可愛：只要講「啾咪」別人就不能打你，太可愛了\n</br>
+            <br>賣萌：攻擊別人時，「睜著水汪汪的大眼睛」並把所有攻擊單位收回手中，聽過「萌殺」嗎？\n</br>
+	    </p>
+    </string>
+    <string name="機械族">
+        <p>
+            <br>效率：1張行動牌能用2個單位，但依然扣2個行動點\n</br>
+            <br>節能：能將場上未行動的牌收回手中\n</br>
+	    </p>
+    </string>
+    <string name="德魯伊">
+        <p>
+            <br>契約：綁同隊生產都+1or綁敵隊互相傷害時傷害-1\n</br>
+            <br>禁獵：無法使用獵人，但能當任何部隊使用，可是不能是第1張\n</br>
+            <br>(勝利條件3需集齊6種部隊和手中有獵人)\n</br>
+	    </p>
+    </string>
+    <string name="商人">
+        <p>
+            <br>眼光：商店變10張\n</br>
+            <br>先機：能在任何時候進行交易，且有優先權\n</br>
+            <br>批發：花3元交易5張牌\n</br>
+	    </p>
+    </string>
+    <string name="吸血鬼">
+    	<p>
+            <br>晝眠：白天時，不能打行動牌也不用吃飯\n</br>
+            <br>夜襲：黑夜時，額外+2行動點\n</br>
+            <br>　　(首輪白天，每輪日夜交替)\n</br>
+	    </p>
+    </string>
+    <string name="特圖">
+        <p>
+            <br>天賦：以30元起手，但5輪內不能獲勝\n</br>
+            <br>唯一神：每輪可選擇讓1個勝利方式失效\n</br>
+        </p>
+    </string>
+    <string name="賴爾">
+        <p>
+            <br>把戲：結束回合時，能把牌庫頂5張牌與自己做對換(任意張數)\n</br>
+            <br>愚弄：第二輪開始能更改先後順序，但每輪每人都得輪到\n</br>
+        </p>
+    </string>
+    <string name="賭徒">
+        <p>
+            <br>豪賭：每回合骰骰子，骰到\n</br>
+            <br>　　• 1：攻擊和生產–3\n</br>
+            <br>　　• 2：攻擊–2\n</br>
+            <br>　　• 3：生產–2\n</br>
+            <br>　　• 4：生產+2\n</br>
+            <br>　　• 5：攻擊+2\n</br>
+            <br>　　• 6：攻擊和生產+3\n</br>
+            <br>改運：花2元重新執行豪賭，每使用1次費用+1，回合重計\n</br>
+        </p>
+    </string>
+    <string name="狂戰士">
+        <p>
+            <br>強悍：持有錢數大於9且場上沒有部隊時，該回合所受傷害不會使你死亡\n</br>
+            <br>(多餘的攻擊力改從銀行拿)\n</br>
+            <br>無懼：持有錢數小於10時，攻擊+5\n</br>
+        </p>
+    </string>
+    <string name="海盜">
+        <p>
+            <br>剽竊：使用偷竊時，目標為2名玩家\n</br>
+            <br>勒索：當別人進行生產時，可向其拿1元\n</br>
+        </p>
+    </string>
+    <string name="死靈族">
+	    <p>
+            <br>不死：當部隊受攻擊時(含刺殺)\n</br>
+            <br>　　• 蓋牌，下回合翻開\n</br>
+            <br>　　(不能更換職業)\n</br>
+            <br>　　• 移至棄牌堆\n</br>
+            <br>魔法抗拒：• 不能使用法師\n</br>
+            <br>　　(因此無法達成勝利條件3)\n</br>
+            <br>　　• 所受法師傷害-3(最低1)</br>
+        </p>
+    </string>
+    <string name="我也不知道">我也不知道</string>
 </resources>
